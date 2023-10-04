@@ -1,0 +1,100 @@
+body{
+    background-color: #F9F7DC;
+}
+p{
+    font-family: Montserrat;
+    color: #763C00;
+    font-size: 20px;
+}
+button{
+    cursor: pointer;
+}
+.logo{
+    font-weight: 700;
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    left: 170px;
+    width: 50px;
+    top: 5px;
+}
+.signup{
+    color: #F9F7DC;
+    border: none;
+    border-radius:50px;
+    background-color: #763C00;
+    padding: 15px 60px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+    font-size: 20px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.img-logo{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    left: 90px;
+    top: 40px;
+
+}
+
+
+.yellow{
+    display: grid;
+    grid-template-columns: 700px 200px;
+    column-gap: 400px;
+    background-color: #FFCB65;
+    border-radius: 20px;
+    margin: 0px 90px;
+    margin-top: 150px;
+    height: 600px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    height: 800px;
+}
+.right{
+    margin-top: 250px;
+    margin-right: 500px;
+}
+.left{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+.slogan{
+    font-size: 50px;
+}
+.girl{
+    width: 600px;
+}
+.start{
+    font-size: 30px;
+    border-radius: 40px;
+    padding: 20px 80px;
+    margin-top: 25px;
+    color: #F9F7DC;
+    border: none;
+    background-color: #763C00;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+    font-size: 25px;
+}
+.start:hover{
+    background-color: #572d00;
+    transition: 0.3s;
+}
+.start:active{
+    opacity: 0.75;
+    transition: 0.3s;
+}
+.desc{
+    font-size: 25px;
+}
+.signup:hover{
+    background-color: #572d00;
+    transition: 0.3s;
+}
+.signup:active{
+    opacity: 0.75;
+    transition: 0.3s;
+}

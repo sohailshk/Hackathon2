@@ -1,0 +1,180 @@
+body{
+    background-color: #FFF7DF;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+p,.p,.title{
+    font-family: Montserrat;
+    color: #381e11;
+    font-size: 20px;
+}
+.p{
+    font-weight: 500;
+}
+button{
+    cursor: pointer;
+}
+.img-pfp{
+    width: 250px;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+.info{
+    position: absolute;
+    left: 360px;
+    top: 30px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 700;
+}
+.line{
+    background-color: #FFCD29;
+    height: 1px;
+    width: 800px;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+}
+.bio{
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    width: 700px;
+    font-weight: 500;
+}
+.yllow{
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFCD29;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.yllow:active{
+    opacity: 0.65;
+    transition: 0.3s;
+}
+.yllow:hover{
+    background-color: #fcc40d;
+    transition: 0.3s;
+}
+.yllow1{
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFCD29;
+    position: absolute;
+    top: 700px;
+    left: 230px;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.yllow1:hover{
+    background-color: #fcc40d;
+    transition: 0.3s;
+}
+.yllow1:active{
+    opacity: 0.65;
+    transition: 0.3s;
+}
+.slider{
+    display: flex;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    background-color: #FFE8A1;
+    height: 750px;
+    width: 600px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.leftt{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+.slider-title{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    left: 60px;
+    top: 10px;
+    color: #381e11;
+}
+.stroke1{
+    position: absolute;
+    top: -25px;
+    right: -70px;
+    width: 200px;
+}
+.stroke2{
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
+    right: 600px;
+}
+
+.titlee{
+    position: relative;
+    left: -90px;
+    top: 90px;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+}
+.titlee1{
+    position: relative;
+    right: -300px;
+    top: 50px;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+}
+.linee{
+    background-color: #381e11;
+    height: 1px;
+    width: 450px;
+    position: relative;
+    top: 65px;
+    left: -70px;
+}
+.slider-icon{
+    width: 130px;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+.label1{
+    position: relative;
+    top: 100px;
+    left: -450px;
+}
+.label2{
+    position: relative;
+    top: 200px;
+    left: -900px;
+}
+.label3{
+    position: relative;
+    top: 300px;
+    left: -1350px;
+}
+.label4{
+    position: relative;
+    top: 400px;
+    left: -1800px;
+}
+.label5{
+    position: relative;
+    top: 500px;
+    left: -2250px;
+}
