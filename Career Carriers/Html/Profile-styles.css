@@ -58,7 +58,7 @@ button{
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
 }
 .yllow:active{
-    opacity: 0.65;
+    opacity: 0.75;
     transition: 0.3s;
 }
 .yllow:hover{
@@ -82,13 +82,13 @@ button{
     transition: 0.3s;
 }
 .yllow1:active{
-    opacity: 0.65;
+    opacity: 0.75;
     transition: 0.3s;
 }
 .slider{
     display: flex;
     position: absolute;
-    right: 50px;
+    right: 150px;
     top: 100px;
     background-color: #FFE8A1;
     height: 750px;
@@ -99,7 +99,7 @@ button{
 
 .leftt{
     position: absolute;
-    left: 200px;
+    left: 100px;
     top: 50px;
 }
 .slider-title{
@@ -113,14 +113,14 @@ button{
 .stroke1{
     position: absolute;
     top: -25px;
-    right: -70px;
+    right: 10px;
     width: 200px;
 }
 .stroke2{
     position: absolute;
     bottom: 10px;
     width: 200px;
-    right: 600px;
+    right: 680px;
 }
 
 .titlee{
